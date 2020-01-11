@@ -1,9 +1,6 @@
 def run_guessing_game
-  puts 1
   random_num = rand(1..6)
-  puts 1
   $stdout.puts("please guess a number from 1 - 6")
-  puts 1
   user_input = gets
   if user_input == random_num.to_s
     $stdout.puts("You guessed the correct number!")
