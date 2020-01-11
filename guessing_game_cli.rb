@@ -3,7 +3,7 @@ def run_guessing_game
   $stdout.puts("please guess a number from 1 - 6")
   user_input = gets
   puts random_num
-  if user_input == random_num.to_s
+  if user_input == random_num
     $stdout.puts("You guessed the correct number!")
   elsif user_input == 'exit'
     $stdout.puts("Goodbye!")
