@@ -7,5 +7,6 @@ def run_guessing_game
   elsif user_input == 'exit'
     $stdout.puts("Goodbye!")
   else
-   $stdout.puts("Sorry! The computer guessed #{}.") 
+   $stdout.puts("Sorry! The computer guessed #{random_num}.") 
+ end
 end
